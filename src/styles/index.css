@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,900;1,100;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #e3f0ff;
+    min-height: 100vh;
+}
+div.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav.menu-icon{
+    display: none;
+    cursor: pointer;
+}
+nav .logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color: #5654b3;
+    text-decoration: none;
+}
+.container ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.container ul li{
+    padding: 0 15px;
+}
+.container ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #5654b3;
+}
+.container ul button{
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5654b3;
+    color: white;
+    padding: 10px 20px;
+}
+main{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .text-bx{
+    width: 40%;
+}
+main .text-bx h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #5654b3;
+}
+main .text-bx h1 b{
+    color: #f1676d;
+}
+main .text-bx p{
+    color: #372c62;
+    font-weight: 400;
+    margin-top: 20px;
+}
+main .text-bx .input-bx{
+    margin: 20px 0;
+    display: flex;
+}
+main .text-bx .input-bx input{
+    width: 60%;
+    display: block;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #8997b9;
+    font-size: 16px;
+}
+main .text-bx .input-bx input::placeholder{
+    color: #8997b9;
+}
+main .text-bx .input-bx button{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: #5654b3;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+main .text-bx .social-medias{
+    margin-top: 30px;
+}
+main .text-bx .social-media  a{
+    text-decoration: none;
+}
+main .text-bx .social-medias i{
+    font-size: 23px;
+    margin: 0 3px;
+    color: white;
+    background-color: #372c62;
+    padding: 7px;
+    border-radius: 5px;
+}
+main .img-bx{
+    width: 60%;
+}
+main .img-bx img{
+    width: 100%;
+}
+ul li{
+    color: black;
+}
+
